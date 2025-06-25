@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>listas y fomularios</h1><!--emcabezado nivel 1 -->
+
+  <P>en esta secion, exploraremoscomo trabajar con lista y formularios html.</P>
+  <h2>listas</h2><!-- emcabezado de nivel 2 -->
+  <p>las listas en HTML pueden ser ordenadas o desordenadas. aqui hay un ejemplo en html.</p>
+  <h3>lista desordenada</h3><!-- emcabezado de nivel 3 -->
+  <ul type="square"> <!--listas desordenada -->
+    <li>item 1</li><!--elementos de la lista-->
+    <li>item 2</li>
+    <li>item 3</li> 
+    <li>item 4</li>
+</ul>
+<ol type="i"> <!--lista ordenada, uso el atributo type para definir el escrito de bulet-->
+    <li>item 1</li><!--elemento de la lista-->
+    <li>item 2</li>
+    <li>item 3</li> 
+    <li>item 4</li>   
+</ol>
+
+<h2> formularios</h2><!--emcabezado de nivel 2 -->
+<P>los formularios premite a los usuarios  enviar  datos. aqui hay un ejemplo basico de un formulario</P>
+<form action="https://example.com/submit" method="post"><!--formulario con atributos action y method --> 
+    <label for="name">nombre</label><!--etiqueta parael campo de entrada-->
+    <input type="text" id="name" name="name" required><!--campo de entrada-->
+    <br> <!--salto de linea-->
+    <label for="email">correo electronico:</label>
+    <imput for="email" id="email" name="email" required><!--campo de entrada de correo electronico requerido-->
+    <br>
+    <imput type="submit" value="enviar"><!--boton de envio-->
+    <input type="reset" value="reiniciar"><!--boton de reinicio-->
+    </form>
+</body>
+</html>
