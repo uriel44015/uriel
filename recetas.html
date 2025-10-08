@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+    <style>
+        /* 🎨 Paleta: Naranja, Blanco y Gris */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #e67e22;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul.menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul.menu li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contenedor {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .columna {
+            flex: 1;
+            padding: 15px;
+            background: white;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #e67e22;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍴 Nuestras Recetas</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <section class="columna">
+            <h2>Top 3 Recetas</h2>
+            <ol>
+                <li>Pizza casera</li>
+                <li>Empanadas argentinas</li>
+                <li>Brownies de chocolate</li>
+            </ol>
+            <img src="img/pizza.jpg" alt="Pizza casera" width="100%">
+        </section>
+
+        <aside class="columna">
+            <h3>Explora más</h3>
+            <p>Encuentra más recetas en el siguiente enlace:</p>
+            <a href="https://www.cocinacaserayfacil.net/" target="_blank">Cocina Casera</a>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Cocinando Ando</p>
+    </footer>
+</body>
+</html>
