@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recetas y tecnicas de cocina</title>
+    <style>
+        /* Paleta: Naranja, Blanco y Gris */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #6f5763;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul.menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul.menu li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contenedor {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Modelo de caja */
+        .columna {
+            flex: 1;
+            padding: 15px;
+            background: white;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: oklch(71.428% 0.1344 73.126 / 0.832);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍴 recetas y tecnicas de cocina</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <section class="columna">
+            <h2>Bienvenidos A RECETAS DE DON BUDDY</h2>
+            <p>RECETAS BASICAS</p>
+            <img src="c:\Users\axelg\OneDrive\Imagens\Screenshots\torta de zanahoria.png" width="100%">
+        </section>
+
+        <aside class="columna">
+            <h3>Consejos de cocina</h3>
+            <ul>
+                <li> Usar tasa medidora y cucharas metricas</li>
+                <li>a notar todas las cosas que se preparan</li>
+                <li>concinar con ganas y pasion</li>
+            </ul>
+            <h3>Video destacado</h3>
+            <video controls width="100%">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/d6Ih7ckl_gY?si=iyHiq2bGESLwVPOJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </video>
+        </aside>
+    </main>
+ 
+    <footer>
+        <p>©  RECETAS de cocina - <a href="https://www.recetasgratis.net/" target="_blank">Más recetas</a></p>
+    </footer>
+</body>
+</html>
