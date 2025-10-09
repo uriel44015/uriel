@@ -1,0 +1,208 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff8f0;
+    margin: 0;
+    color: #3d2c1e;
+}
+header {
+    background: #f7e3d3;
+    padding: 1.5em 0 0.5em 0;
+    text-align: center;
+    border-bottom: 2px solid #e2bfa3;
+}
+.logo {
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.menu a {
+    text-decoration: none;
+    color: #a85c2a;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+.menu a:hover {
+    color: #d17c3a;
+}
+.hero {
+    background: #fff0e6;
+    padding: 2em 1em 2em 1em;
+    text-align: center;
+    border-bottom: 2px solid #e2bfa3;
+}
+.hero h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #a85c2a;
+}
+.subtitulo {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #6d3b1c;
+}
+.portada {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px #e2bfa3;
+    margin-top: 1em;
+}
+main {
+    padding: 2em 1em;
+}
+.destacadas h2 {
+    text-align: center;
+    color: #a85c2a;
+    margin-bottom: 1.5em;
+}
+.recetas-grid {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.receta {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #e2bfa3;
+    padding: 1em;
+    width: 300px;
+    text-align: center;
+}
+.foto-receta {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 0.7em;
+}
+.receta h3 {
+    color: #d17c3a;
+    margin-bottom: 0.5em;
+}
+.autoridad {
+    background: #f7e3d3;
+    border-radius: 16px;
+    margin: 2em 0;
+    padding: 2em 1em;
+    box-shadow: 0 2px 8px #e2bfa3;
+}
+.autoridad h2 {
+    color: #a85c2a;
+    text-align: center;
+}
+.guia h3 {
+    color: #d17c3a;
+    margin-top: 1em;
+}
+.guia ul {
+    margin: 0.5em 0 1em 1.5em;
+}
+.cta {
+    display: inline-block;
+    background: #a85c2a;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1.5em;
+    transition: background 0.2s;
+}
+.cta:hover {
+    background: #d17c3a;
+}
+.herramientas {
+    margin: 2em 0;
+}
+.herramientas h2 {
+    text-align: center;
+    color: #a85c2a;
+    margin-bottom: 1.5em;
+}
+.galeria-herramientas {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.herramienta {
+    background: #fff0e6;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #e2bfa3;
+    padding: 1em;
+    width: 220px;
+    text-align: center;
+}
+.receta-individual {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #e2bfa3;
+    padding: 2em 1em;
+    margin: 2em auto;
+    max-width: 600px;
+}
+.receta-individual h1 {
+    color: #a85c2a;
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+.receta-individual .intro {
+    color: #6d3b1c;
+    margin-bottom: 1em;
+}
+.receta-individual ul {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+.receta-individual ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+dl {
+    margin-left: 1.5em;
+}
+dt {
+    font-weight: bold;
+    color: #d17c3a;
+    margin-top: 0.7em;
+}
+dd {
+    margin-bottom: 0.5em;
+}
+footer {
+    background: #f7e3d3;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 2px solid #e2bfa3;
+    margin-top: 2em;
+}
+footer .menu ul {
+    justify-content: center;
+    gap: 2em;
+}
+footer p {
+    color: #a85c2a;
+    font-size: 0.95em;
+    margin-top: 1em;
+}
+@media (max-width: 900px) {
+    .recetas-grid, .galeria-herramientas {
+        flex-direction: column;
+        align-items: center;
+    }
+    .receta, .herramienta {
+        width: 90%;
+        margin-bottom: 1em;
+    }
+}
